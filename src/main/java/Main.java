@@ -22,8 +22,9 @@ public class Main {
     }
 
 
-    public static float calculate(float a, float b, float c, float d){
-        return a * (b + (c / d));
+    public static double calculate(float a, float b, float c, float d){
+        double f = (double)(a * (b + (c / d)));
+        return f;
     }
 
     public static boolean compareNumber(int a, int b){
